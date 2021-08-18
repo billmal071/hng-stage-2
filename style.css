@@ -28,6 +28,10 @@ a {
   text-transform: uppercase;
 }
 
+.max-width {
+  max-width: 1580px;
+}
+
 .resp-heading {
   font-size: 1vw;
 }
@@ -55,8 +59,8 @@ a {
 }
 
 .mx-1 {
-  margin-right: 5rem;
-  margin-left: 5rem;
+  margin-right: 7.5rem;
+  margin-left: 7.5rem;
 }
 
 .mr-1 {
@@ -123,7 +127,7 @@ ul > li {
 .box {
   border: 2px solid var(--gold-color);
   padding: 20px;
-  margin: 25px;
+  margin: 35px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -147,6 +151,10 @@ ul > li {
 /* rwd */
 
 @media (max-width: 768px) {
+  .box {
+    margin: 25px;
+  }
+
   .flexbox {
     flex-direction: column;
   }

@@ -4,7 +4,4 @@ index.html and style.css contains task 3
 
 
 ### DEPLOYED LINK
-
-
-
-### VIEW
+[link](https://billmal071.github.io/hng-stage-2/)
